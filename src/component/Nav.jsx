@@ -13,7 +13,7 @@ const Nav = () => {
                 />
             </div>
 {/* navlinks */}
-            <div>
+            <div className=''>
                 <a href="/">About</a>
                 <a href="/">Service</a>
                 <a href="/">Contact </a>
