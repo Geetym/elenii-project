@@ -1,6 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Nav from './component/Nav'
+import Hero from './component/Hero'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         element={
           <>
             <Nav />
+            <Hero />
             
           </>
         } 
