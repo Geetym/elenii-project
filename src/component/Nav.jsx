@@ -5,7 +5,7 @@ const Nav = () => {
     <nav>
         <div>
 {/* logo */}
-            <div>
+            <div className='flex '>
                 <img 
                 src="https://www.elenii.xyz/_next/image?url=%2Fimages%2Feleni%2F1.webp&w=640&q=75" 
                 alt="elenii" 
@@ -13,7 +13,7 @@ const Nav = () => {
                 />
             </div>
 {/* navlinks */}
-            <div className=''>
+            <div className='flex gap-3'>
                 <a href="/">About</a>
                 <a href="/">Service</a>
                 <a href="/">Contact </a>
