@@ -5,7 +5,7 @@ const Nav = () => {
     <nav>
         <div>
 {/* logo */}
-            <div className='flex '>
+            <div>
                 <img 
                 src="https://www.elenii.xyz/_next/image?url=%2Fimages%2Feleni%2F1.webp&w=640&q=75" 
                 alt="elenii" 
