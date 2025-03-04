@@ -15,8 +15,8 @@ const Nav = () => {
 {/* navlinks */}
             <div>
                 <a href="/">About</a>
-                <a href="/"></a>
-                <a href="/">Home</a>
+                <a href="/">Service</a>
+                <a href="/">Contact </a>
             </div>
         </div>
     </nav>
