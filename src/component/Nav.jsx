@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <nav>
-        <div className='flex '>
+        <div className='flex justify'>
 {/* logo */}
             <div>
                 <img 
