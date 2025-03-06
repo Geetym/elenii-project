@@ -10,7 +10,8 @@ const Hero = () => {
       {/* Left Side (Text & Socials) */}
       <div className="md:w-1/2 text-center md:text-left bg-opacity-80 p-6 rounded-lg">
         <h1 className="text-5xl font-bold text-gray-800 mb-4 mt-10 italic">
-          Welcome to <span className="underline font-black">Elenii</span>
+          Welcome to 
+          <span className="underline font-black relative"> Elenii<span className='absolute -right-4 top-1/4 transform -translate-y-1/3 flex size-3'><span className='absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75'></span><span className='relative inline-flex size-3 rounded-full bg-sky-500'></span></span></span>
         </h1>
         <p className="text-2xl text-gray-600 leading-relaxed mb-6">
           Elenii project is a solution provider to local problems.
@@ -26,7 +27,7 @@ const Hero = () => {
       </div>
 
       {/* Right Side (Image) */}
-      <div className="md:w-1/2 flex justify-center">
+      <div className="md:w-1/2 flex justify-center relative">
         <img
           src="https://www.elenii.xyz/_next/static/media/lp.7985e175.webp"
           alt="Elenii Project"
