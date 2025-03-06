@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div
-      className="flex flex-col md:flex-row items-center w-full px-6 md:px-12 py-16 min-h-[50vh] md:h-screen bg-gray-100 bg-cover bg-center gap-6 md:gap-12"
+      className="flex flex-col md:flex-row items-center w-full px-6 md:px-12 py-16 min-h-[30vh] md:h-screen bg-gray-100 bg-cover bg-center gap-6 md:gap-12"
       style={{ backgroundImage: "url('https://htmlbeans.com/html/botanical/images/b-bg.jpg')" }}
     >
       {/* Left Side (Text) */}
