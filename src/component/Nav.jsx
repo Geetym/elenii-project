@@ -5,7 +5,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='flex justify-between items-center px-6 py-4 bg-white shadow-md'>
+    <nav className='flex justify-between items-center px-6 py-4 bg-white/30 b shadow-md fixed top-0 left-0 w-full z-50'>
       {/* Logo */}
       <div className='flex items-center'>
         <img
@@ -18,15 +18,14 @@ const Nav = () => {
       {/* Desktop Navigation */}
       <div className='hidden md:flex gap-6 text-gray-700'>
         <a href="/" className="hover:text-blue-600">About</a>
-        <a href="/" className="hover:text-blue-600">Patnership</a>
+        <a href="/" className="hover:text-blue-600">Partnership</a>
         <a href="/" className="hover:text-blue-600">Services</a>
       </div>
 
       {/* Login Button (Always Visible) */}
       <div className='hidden md:block'>
         <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-        Contact Us
-        
+          Contact Us
         </button>
       </div>
 
@@ -37,9 +36,9 @@ const Nav = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white shadow-md p-4 flex flex-col items-center gap-4 md:hidden">
+        <div className="absolute top-16 left-0 w-full bg-white/30 backdrop-blur-lg shadow-md p-4 flex flex-col items-center gap-4 md:hidden">
           <a href="/" className="hover:text-blue-600">About</a>
-          <a href="/" className="hover:text-blue-600">Patnership</a>
+          <a href="/" className="hover:text-blue-600">Partnership</a>
           <a href="/" className="hover:text-blue-600">Services</a>
           <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
             Contact Us
