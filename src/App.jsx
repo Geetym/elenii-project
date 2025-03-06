@@ -2,7 +2,8 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Nav from './component/Nav'
 import Hero from './component/Hero'
-import Data from './component/Data'
+import Empower from './component/Empower'
+// import Data from './component/Data'
 
 
 
@@ -17,7 +18,8 @@ const App = () => {
           <>
             <Nav />
             <Hero />
-            <Data />
+            {/* <Data /> */}
+            <Empower />
             
           </>
         } 

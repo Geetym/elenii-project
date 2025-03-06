@@ -24,7 +24,7 @@ const Nav = () => {
 
       {/* Login Button (Always Visible) */}
       <div className='hidden md:block'>
-        <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+        <button className="px-4 py-2 bg-[#0A4182] text-white rounded-lg hover:bg-blue-700">
           Contact Us
         </button>
       </div>
@@ -40,7 +40,7 @@ const Nav = () => {
           <a href="/" className="hover:text-blue-600">About</a>
           <a href="/" className="hover:text-blue-600">Partnership</a>
           <a href="/" className="hover:text-blue-600">Services</a>
-          <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+          <button className="px-4 py-2 bg-[#0A4182] text-white rounded-lg hover:bg-blue-700">
             Contact Us
           </button>
         </div>
