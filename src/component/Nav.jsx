@@ -17,8 +17,8 @@ const Nav = () => {
 
       {/* Desktop Navigation */}
       <div className='hidden md:flex gap-6 text-gray-700'>
-        <a href="/" className="hover:text-blue-600">Features</a>
-        <a href="/" className="hover:text-blue-600">Pricing</a>
+        <a href="/" className="hover:text-blue-600">About</a>
+        <a href="/" className="hover:text-blue-600">Donations</a>
         <a href="/" className="hover:text-blue-600">Services</a>
       </div>
 
