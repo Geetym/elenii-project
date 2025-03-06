@@ -18,9 +18,11 @@ const Empower = () => {
             We’re building a future powered by technology to address the world’s
             most pressing issues. Discover how you can contribute.
           </p>
-          <button className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">
-            Discover more
-          </button>
+          <button className="mt-6 relative px-6 py-3 rounded-full text-white text-lg font-semibold bg-[#0A4182] shadow-inner border-2 border-[#0A4182] 
+hover:bg-gradient-to-r hover:from-[#0A4182] hover:to-blue-500 transition-all duration-300">
+  Discover more
+</button>
+
 
           {/* Social Media Icons */}
           {/* <div className="flex gap-4 mt-6 text-blue-600">
