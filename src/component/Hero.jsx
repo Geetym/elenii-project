@@ -19,10 +19,10 @@ const Hero = () => {
 
         {/* Social Media Icons */}
         <div className="flex justify-center md:justify-start space-x-4">
-          <a href="#" className="hover:text-gray-700 text-[#0A4182] text-2xl"><FaFacebookF /></a>
-          <a href="#" className="hover:text-gray-700 text-blue-400 text-2xl"><FaTwitter /></a>
-          <a href="#" className="hover:text-gray-700 text-pink-500 text-2xl"><FaInstagram /></a>
-          <a href="#" className="hover:text-gray-700 text-blue-700 text-2xl"><FaLinkedinIn /></a>
+          <a href="/" className="hover:text-gray-700 text-[#0A4182] text-2xl"><FaFacebookF /></a>
+          <a href="/" className="hover:text-gray-700 text-blue-400 text-2xl"><FaTwitter /></a>
+          <a href="/" className="hover:text-gray-700 text-pink-500 text-2xl"><FaInstagram /></a>
+          <a href="/" className="hover:text-gray-700 text-blue-700 text-2xl"><FaLinkedinIn /></a>
         </div>
       </div>
 
