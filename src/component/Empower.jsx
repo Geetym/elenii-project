@@ -1,11 +1,15 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Empower = () => {
   return (
     <section className="bg-[#E8ECF0] text-gray-900 py-16 px-6 md:px-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
-        
         {/* Left Side - Text */}
         <div className="md:w-1/2">
           <h2 className="text-3xl md:text-4xl font-bold">
@@ -18,11 +22,9 @@ const Empower = () => {
             We’re building a future powered by technology to address the world’s
             most pressing issues. Discover how you can contribute.
           </p>
-          <button className="mt-6 relative px-6 py-3 rounded-full text-white text-lg font-semibold bg-[#0A4182] shadow-inner border-2 border-[#0A4182] 
-hover:bg-gradient-to-r hover:from-[#0A4182] hover:to-blue-500 transition-all duration-300">
-  Discover more
-</button>
-
+          <button className="mt-6 relative px-6 py-3 rounded-full text-white text-lg font-semibold bg-[#0A4182] shadow-inner border-2 border-[#0A4182] hover:bg-gradient-to-r hover:from-[#0A4182] hover:to-blue-500 transition-all duration-300">
+            Discover more
+          </button>
 
           {/* Social Media Icons */}
           {/* <div className="flex gap-4 mt-6 text-blue-600">
