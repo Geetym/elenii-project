@@ -2,9 +2,12 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between w-full px-6 md:px-12 py-16 bg-gray-100">
+    <div
+      className="flex flex-col md:flex-row items-center justify-between w-full px-6 md:px-12 py-16 h-screen bg-gray-100 bg-cover bg-center"
+      style={{ backgroundImage: "url('https://htmlbeans.com/html/botanical/images/b-bg.jpg')" }}
+    >
       {/* Left Side (Text) */}
-      <div className="md:w-1/2 text-center md:text-left">
+      <div className="md:w-1/2 text-center md:text-left bg-white bg-opacity-80 p-6 rounded-lg">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           Welcome to Elenii
         </h1>
