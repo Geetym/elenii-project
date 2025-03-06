@@ -9,8 +9,8 @@ const Hero = () => {
     >
       {/* Left Side (Text & Socials) */}
       <div className="md:w-1/2 text-center md:text-left bg-opacity-80 p-6 rounded-lg">
-        <h1 className="text-6xl font-bold text-gray-800 mb-4 mt-10">
-          Welcome to Elenii
+        <h1 className="text-5xl font-bold text-gray-800 mb-4 mt-10 italic">
+          Welcome to <span className="underline font-black">Elenii</span>
         </h1>
         <p className="text-2xl text-gray-600 leading-relaxed mb-6">
           Elenii project is a solution provider to local problems.
