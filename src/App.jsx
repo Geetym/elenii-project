@@ -2,7 +2,8 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Nav from './component/Nav'
 import Hero from './component/Hero'
-// import SdgData from './component/sdgdata'
+import Data from './component/Data'
+
 
 
 
@@ -16,7 +17,7 @@ const App = () => {
           <>
             <Nav />
             <Hero />
-            {/* <SdgData /> */}
+            <Data />
             
           </>
         } 
