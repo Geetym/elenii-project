@@ -1,19 +1,28 @@
 import React from 'react';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Hero = () => {
   return (
     <div
-      className="flex flex-col md:flex-row items-center w-full px-6 md:px-12 py-32 min-h-[50vh] md:h-screen bg-gray-100 bg-cover bg-center gap-6 md:gap-12"
+      className="flex flex-col md:flex-row items-center w-full px-6 md:px-12 py-16 min-h-[50vh] md:h-screen bg-gray-100 bg-cover bg-center gap-6 md:gap-12"
       style={{ backgroundImage: "url('https://htmlbeans.com/html/botanical/images/b-bg.jpg')" }}
     >
-      {/* Left Side (Text) */}
+      {/* Left Side (Text & Socials) */}
       <div className="md:w-1/2 text-center md:text-left bg-opacity-80 p-6 rounded-lg">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
           Welcome to Elenii
         </h1>
-        <p className="text-lg text-gray-600 leading-relaxed">
+        <p className="text-lg text-gray-600 leading-relaxed mb-6">
           Elenii project is a solution provider to local problems.
         </p>
+
+        {/* Social Media Icons */}
+        <div className="flex justify-center md:justify-start space-x-4">
+          <a href="#" className="hover:text-gray-700 text-blue-600 text-2xl"><FaFacebookF /></a>
+          <a href="#" className="hover:text-gray-700 text-blue-400 text-2xl"><FaTwitter /></a>
+          <a href="#" className="hover:text-gray-700 text-pink-500 text-2xl"><FaInstagram /></a>
+          <a href="#" className="hover:text-gray-700 text-blue-700 text-2xl"><FaLinkedinIn /></a>
+        </div>
       </div>
 
       {/* Right Side (Image) */}
