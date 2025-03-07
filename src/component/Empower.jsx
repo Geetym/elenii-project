@@ -12,10 +12,10 @@ const Empower = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Left Side - Text */}
         <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-2xl md:text-4xl font-bold">
             <span className="text-gray-900">Eleni</span> | Empowering Change
           </h2>
-          <p className="text-xl font-semibold mt-4">
+          <p className="text-lg font-semibold mt-4">
             Education. Equality. Environment. Energy.
           </p>
           <p className="mt-4 text-gray-600">
