@@ -4,6 +4,7 @@ import Nav from './component/Nav'
 import Hero from './component/Hero'
 import Empower from './component/Empower'
 // import Data from './component/Data'
+import Product from './component/Product'
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
             <Nav />
             <Hero />
             {/* <Data /> */}
+            <Product/>
             <Empower />
             
           </>
