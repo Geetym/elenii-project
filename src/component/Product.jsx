@@ -33,19 +33,19 @@ const products = [
 
 const ProductCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:text-white p-4">
       <img
         src={image}
         alt={title}
-        className="w-full h-48 object-cover"
+        className="w-full h-48 object-cover rounded-t-xl"
         onError={(e) => {
           e.target.onerror = null;
           e.target.src = "https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-open-book-education-day_23-2149241017.jpg?ga=GA1.1.238894924.1715341372&semt=ais_hybrid";
         }}
       />
       <div className="p-4 text-center md:text-left">
-        <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
-        <p className="text-gray-600 text-sm mt-1">{description}</p>
+        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-white">{title}</h3>
+        <p className="text-gray-600 text-sm mt-1 group-hover:text-white">{description}</p>
       </div>
     </div>
   );
