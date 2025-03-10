@@ -37,12 +37,12 @@ const Empower = () => {
           </button>
 
           {/* Social Media Icons */}
-          <div className="flex justify-center md:justify-start gap-4 mt-6 text-blue-600">
+          {/* <div className="flex justify-center md:justify-start gap-4 mt-6 text-blue-600">
             <FaFacebookF className="text-xl hover:text-blue-800 cursor-pointer" />
             <FaTwitter className="text-xl hover:text-blue-800 cursor-pointer" />
             <FaInstagram className="text-xl hover:text-pink-500 cursor-pointer" />
             <FaLinkedin className="text-xl hover:text-blue-800 cursor-pointer" />
-          </div>
+          </div> */}
         </div>
       </div>
 
