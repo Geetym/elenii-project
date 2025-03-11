@@ -33,7 +33,7 @@ const products = [
 
 const ProductCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:bg-blue-200  hover:shadow-black border-x-4">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:bg-blue-200  hover:shadow-black border-y-4">
       <img
         src={image}
         alt={title}
