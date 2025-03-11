@@ -58,7 +58,7 @@ const ProductSection = () => {
         <h2 className="text-4xl font-bold text-gray-700">
           WHAT WE IMPACT
         </h2>
-        <p className="text-gray-600 mt-2 text-lg">
+        <p className="text-[#0A4182] mt-2 text-lg italic font-extralight">
           Browse through our focus goals and see which is best for you.
         </p>
       </div>

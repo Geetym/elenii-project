@@ -12,7 +12,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 mt-6 italic">
           Welcome to Elenii
         </h1>
-        <p className="text-lg md:text-2xl text-gray-600 leading-relaxed mb-6 animate-slideIn">
+        <p className="text-lg md:text-2xl text-[#0A4182] leading-relaxed mb-6 animate-slideIn">
           A solution provider to local problems.
         </p>
 
