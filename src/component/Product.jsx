@@ -55,8 +55,8 @@ const ProductSection = () => {
   return (
     <section className="py-12 px-6 bg-gray-100">
       <div className="text-center max-w-2xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900">
-          WHAT WE <span className="text-red-600">IMPACT</span>
+        <h2 className="text-4xl font-bold text-gray-700">
+          WHAT WE IMPACT
         </h2>
         <p className="text-gray-600 mt-2 text-lg">
           Browse through our focus goals and see which is best for you.
