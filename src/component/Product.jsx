@@ -32,7 +32,7 @@ const products = [
 
 const ProductCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 md:hover:scale-105 md:hover:bg-blue-200 md:hover:shadow-black border-y-4">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 md:hover:scale-105 md:hover:bg-blue-200 md:hover:shadow-black ">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-4 text-center md:text-left">
         <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
