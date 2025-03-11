@@ -1,4 +1,6 @@
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 const products = [
   {
@@ -33,7 +35,7 @@ const products = [
 
 const ProductCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:bg-blue-200  hover:shadow-black border-y-4">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 md:hover:scale-105 md:hover:bg-blue-200 md:hover:shadow-black border-y-4">
       <img
         src={image}
         alt={title}
@@ -53,19 +55,33 @@ const ProductCard = ({ image, title, description }) => {
 
 const ProductSection = () => {
   return (
-    <section className="py-12 px-6 bg-gray-100">
+    <section className="py-12 px-4 bg-gray-100">
       <div className="text-center max-w-2xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-700">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-700">
           WHAT WE IMPACT
         </h2>
         <p className="text-[#0A4182] mt-2 text-lg italic font-extralight border-y-1">
           Browse through our focus goals and see which is best for you.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-        {products.map((product) => (
-          <ProductCard key={product.id} {...product} />
-        ))}
+
+      {/* Swiper for Mobile, Grid for Desktop */}
+      <div className="mt-8">
+        <div className="block md:hidden">
+          <Swiper spaceBetween={16} slidesPerView={1.2} centeredSlides>
+            {products.map((product) => (
+              <SwiperSlide key={product.id}>
+                <ProductCard {...product} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {products.map((product) => (
+            <ProductCard key={product.id} {...product} />
+          ))}
+        </div>
       </div>
     </section>
   );
