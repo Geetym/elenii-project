@@ -33,7 +33,7 @@ const products = [
 
 const ProductCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:bg-gray-200 hover:shadow-xl">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:bg-blue-200  hover:shadow-black border-y-4">
       <img
         src={image}
         alt={title}
@@ -45,7 +45,7 @@ const ProductCard = ({ image, title, description }) => {
       />
       <div className="p-4 text-center md:text-left">
         <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
-        <p className="text-gray-600 text-sm mt-1">{description}</p>
+        <p className="text-[#372506] text-sm font-extralight mt-1">{description}</p>
       </div>
     </div>
   );
@@ -58,7 +58,7 @@ const ProductSection = () => {
         <h2 className="text-4xl font-bold text-gray-700">
           WHAT WE IMPACT
         </h2>
-        <p className="text-[#0A4182] mt-2 text-lg italic font-extralight">
+        <p className="text-[#0A4182] mt-2 text-lg italic font-extralight border-y-4">
           Browse through our focus goals and see which is best for you.
         </p>
       </div>
