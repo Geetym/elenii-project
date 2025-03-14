@@ -66,7 +66,8 @@ const Nav = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white/30 backdrop-blur-lg shadow-md p-4 flex flex-col items-center gap-4 md:hidden">
+        <div className="absolute top-16 left-0 w-full bg-white/40 backdrop-blur-2xl shadow-md p-4 flex flex-col items-center gap-4 md:hidden">
+
           <a href="/" className="hover:text-blue-600">About</a>
           <a href="/" className="hover:text-blue-600">Partnership</a>
           <a href="/" className="hover:text-blue-600">Services</a>
